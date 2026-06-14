@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+  </head>
+
+  <body>
+    <!-- title -->
+    <header>
+      <h1>INFRIDGE</h1>
+      <p>Find your recipe with your ingredients only!</p>
+    </header>
+
+    <!-- search bar -->
+    <main>
+      <section class="search-container">
+        <input
+          type="text"
+          id="ingredient-input"
+          placeholder="e.g., chicken, tomatoes, garlic"
+        />
+        <!-- The button to trigger the search -->
+        <button id="search-btn">Find Recipes</button>
+      </section>
+
+      <!-- results -->
+      <section id="recipe-results">
+        <p class="placeholder-text">
+          Searching through your fridge's potential...
+        </p>
+      </section>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
