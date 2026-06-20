@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,32 +8,38 @@
   </head>
 
   <body>
-    <!-- title -->
-    <header>
-      <h1>INFRIDGE</h1>
-      <p>Find your recipe with your ingredients only!</p>
-    </header>
+    <div class="homepage">
+      <div class="hp-text">
+        <!-- title -->
+        <header>
+          <h1>inFRIDGE</h1>
+          <p>Find a recipe using your ingredients only!</p>
+        </header>
 
-    <!-- search bar -->
-    <main>
-      <section class="search-container">
-        <input
-          type="text"
-          id="ingredient-input"
-          placeholder="e.g., chicken, tomatoes, garlic"
-        />
-        <!-- The button to trigger the search -->
-        <button id="search-btn">Find Recipes</button>
-      </section>
+        <!-- search bar -->
+        <main>
+          <section class="search-container">
+            <input
+              type="text"
+              id="ingredient-input"
+              placeholder="e.g., chicken, tomatoes, garlic"
+            />
+            <!-- The button to trigger the search -->
+            <button id="search-btn">Find Recipes</button>
+          </section>
 
-      <!-- results -->
-      <section id="recipe-results">
-        <p class="placeholder-text">
-          Searching through your fridge's potential...
-        </p>
-      </section>
-    </main>
-
+          <!-- results -->
+          <section id="recipe-results">
+            <p class="placeholder-text">
+              Searching through your fridge's potential...
+            </p>
+          </section>
+        </main>
+      </div>
+      <div class="hp-image">
+        <img src="homepage_pasta.jpg" alt="pasta" />
+      </div>
+    </div>
     <script src="config.js"></script>
     <script src="script.js"></script>
   </body>
